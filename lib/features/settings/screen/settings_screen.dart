@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:todoist/core/widgets/app_bar.dart';
 import 'package:todoist/features/settings/screen/settings_screen_controller.dart';
@@ -11,10 +12,10 @@ class SettingsScreen extends GetView<SettingsScreenController> {
     return Scaffold(
       body: Column(
         children: [
-          const CustomAppBar(
-            leading: BackButton(),
+          CustomAppBar(
+            leading: const BackButton(),
             title: 'Settings',
-            actions: [],
+            actions: [SizedBox(width: 50.w)],
           ),
           Expanded(
             child: ListView(

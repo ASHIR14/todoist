@@ -3,7 +3,6 @@ import 'package:get/get.dart';
 import 'package:todoist/core/model/task.dart';
 import 'package:todoist/core/widgets/app_bar.dart';
 import 'package:todoist/core/widgets/dropdown_widget.dart';
-import 'package:todoist/core/widgets/search_field.dart';
 import 'package:todoist/core/widgets/task_card/task_card.dart';
 import 'package:todoist/features/comments_bottom_sheet/view/comments_bottom_sheet.dart';
 import 'package:todoist/features/kanban_board/screen/kanban_board_screen_controller.dart';
@@ -32,11 +31,11 @@ class KanbanBoardScreen extends GetView<KanbanBoardScreenController> {
                 ),
               ),
             ),
-            CustomSearchField(
-              onChanged: (value) {
-                // controller.search(value);
-              },
-            ),
+            // CustomSearchField(
+            //   onChanged: (value) {
+            //     // controller.search(value);
+            //   },
+            // ),
             const TabBar(
               tabs: [
                 Tab(text: 'Todo'),

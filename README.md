@@ -1,16 +1,25 @@
 # todoist
 
-A kanban board for tasks
+Practical Assignment from Innoscripta
 
-## Getting Started
+## Details
 
-This project is a starting point for a Flutter application.
+Major Tasks Completed:
 
-A few resources to get you started if this is your first Flutter project:
+- Kanban Board
+- Time Tracking
+- Column for Completed Tasks
+- Comments on Tasks
+- UI (No UI provided)
+- Dark Mode (In progress)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Total Time Taken: ~12 Hours
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+
+![Projects Bottom Sheet](screenshots/project_bottom_sheet.png)
+![Todo Tasks](screenshots/todo.png)
+![In Progress Tasks](screenshots/in_progress.png)
+![Completed Tasks](screenshots/completed.png)
+![Task Bottom Sheet](screenshots/task_bottom_sheet.png)
+![Comments](screenshots/comments.png)
